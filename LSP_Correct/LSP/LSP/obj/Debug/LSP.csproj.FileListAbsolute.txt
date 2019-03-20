@@ -1,0 +1,6 @@
+C:\Users\m.montero\Documents\Visual Studio 2015\Projects\LSP\LSP\LSP\bin\Debug\LSP.exe.config
+C:\Users\m.montero\Documents\Visual Studio 2015\Projects\LSP\LSP\LSP\bin\Debug\LSP.exe
+C:\Users\m.montero\Documents\Visual Studio 2015\Projects\LSP\LSP\LSP\bin\Debug\LSP.pdb
+C:\Users\m.montero\Documents\Visual Studio 2015\Projects\LSP\LSP\LSP\obj\Debug\LSP.csprojResolveAssemblyReference.cache
+C:\Users\m.montero\Documents\Visual Studio 2015\Projects\LSP\LSP\LSP\obj\Debug\LSP.exe
+C:\Users\m.montero\Documents\Visual Studio 2015\Projects\LSP\LSP\LSP\obj\Debug\LSP.pdb

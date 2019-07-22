@@ -1,0 +1,28 @@
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLNote</id><coordinates><x>30</x><y>40</y><w>280</w><h>110</h></coordinates><panel_attributes> //BEFORE
+$report = new WorkReport();
+$report.AddEntry(new WorkReportEntry(...));
+$report.AddEntry(new WorkReportEntry(...));
+
+$report.SaveToFile("reports", "workReport.txt");
+
+bg=white</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>30</x><y>160</y><w>190</w><h>80</h></coordinates><panel_attributes>WorkReport
+-
+-
++AddEntry(WorkReportEntry):int
++RemoveEntry(int):boolean
++SaveToFile(string, string): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>30</x><y>300</y><w>280</w><h>120</h></coordinates><panel_attributes> //AFTER
+$report = new WorkReport();
+$report.AddEntry(new WorkReportEntry(...));
+$report.AddEntry(new WorkReportEntry(...));
+
+$saver = new WorkReportFileSaver();
+$saver.Save("reports", "workReport.txt", $report);
+
+bg=white</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>30</x><y>440</y><w>190</w><h>80</h></coordinates><panel_attributes>WorkReport
+-
+-
++AddEntry(WorkReportEntry):int
++RemoveEntry(int):boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>30</x><y>560</y><w>230</w><h>80</h></coordinates><panel_attributes>WorkReportFileSaver
+-
+-
++Save(string, string, WorkReport):void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>120</x><y>510</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element></diagram>

@@ -1,0 +1,47 @@
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>160</x><y>30</y><w>100</w><h>80</h></coordinates><panel_attributes>bg=#f2dca6
+&lt;&lt;interface&gt;&gt;
+IVehicle
+-
++Drive():void
++Fly():void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>290</x><y>140</y><w>100</w><h>70</h></coordinates><panel_attributes>bg=#f2dca6
+Car
+-
+-
++Drive():void
++Fly():void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>140</x><y>140</y><w>130</w><h>70</h></coordinates><panel_attributes>bg=#f2dca6
+MultiFunctionalCar
+-
+-
++Drive():void
++Fly():void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>20</x><y>140</y><w>100</w><h>70</h></coordinates><panel_attributes>bg=#f2dca6
+Airplane
+-
+-
++Drive():void
++Fly():void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>140</x><y>450</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>280</x><y>450</y><w>70</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;50;50</additional_attributes></element><element><id>Relation</id><coordinates><x>50</x><y>450</y><w>70</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>50;10;10;50</additional_attributes></element><element><id>UMLNote</id><coordinates><x>20</x><y>230</y><w>370</w><h>70</h></coordinates><panel_attributes>Bei einem MultiFunctionalCar wäre diese Variante akzeptabel.
+Für ein normales Car oder Airplane wären überflüssige Funktionen 
+mit einem NotImplementedError o.ä. zu implementieren</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>10</x><y>590</y><w>370</w><h>70</h></coordinates><panel_attributes>Wendet man das ISP an, so sind nur die Funktionen in den
+Interfaces enthalten, welche tatsächlich auf die Klassen anwendbar
+sind. Im Falle des MultiFunctionalCar werden mehrere Interfaces 
+implementiert.</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>500</y><w>100</w><h>70</h></coordinates><panel_attributes>bg=#f2dca6
+Airplane
+-
+-
++Fly():void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>130</x><y>500</y><w>130</w><h>70</h></coordinates><panel_attributes>bg=#f2dca6
+MultiFunctionalCar
+-
+-
++Drive():void
++Fly():void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>70</x><y>380</y><w>100</w><h>80</h></coordinates><panel_attributes>bg=#f2dca6
+&lt;&lt;interface&gt;&gt;
+IAirplane
+-
++Fly():void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>280</x><y>500</y><w>100</w><h>70</h></coordinates><panel_attributes>bg=#f2dca6
+Car
+-
+-
++Drive():void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>210</x><y>380</y><w>100</w><h>80</h></coordinates><panel_attributes>bg=#f2dca6
+&lt;&lt;interface&gt;&gt;
+ICar
+-
++Drive():void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>220</x><y>450</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>100</y><w>30</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;40</additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>100</y><w>130</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;110;40</additional_attributes></element><element><id>Relation</id><coordinates><x>60</x><y>100</y><w>140</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>120;10;10;40</additional_attributes></element></diagram>

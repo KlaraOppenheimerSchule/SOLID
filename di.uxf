@@ -1,0 +1,14 @@
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>20</x><y>20</y><w>100</w><h>30</h></coordinates><panel_attributes>bg=#f2dca6
+Lamp</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>20</x><y>90</y><w>100</w><h>30</h></coordinates><panel_attributes>bg=#f2dca6
+PowerSupply</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>60</x><y>40</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>UMLNote</id><coordinates><x>140</x><y>40</y><w>210</w><h>70</h></coordinates><panel_attributes>In diesem Fall hätten wir eine
+Konkretion, welche sich aufgrund
+von Änderungen der Verbindung
+zum Netz ändern kann (z.B. Umzug)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>20</x><y>270</y><w>100</w><h>40</h></coordinates><panel_attributes>bg=#f2dca6
+&lt;&lt;component&gt;&gt;
+Lamp</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>60</x><y>300</y><w>50</w><h>60</h></coordinates><panel_attributes>Plug</panel_attributes><additional_attributes>10;40;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>20</x><y>400</y><w>100</w><h>40</h></coordinates><panel_attributes>bg=#f2dca6
+&lt;&lt;component&gt;&gt;
+PowerSupply</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>140</x><y>310</y><w>210</w><h>70</h></coordinates><panel_attributes>In diesem Fall hätten wir eine 
+Abstraktion durch welche man 
+das Stromnetz bzw. die Steckdose 
+flexibel wechseln kann.</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>60</x><y>350</y><w>70</w><h>70</h></coordinates><panel_attributes>lt=()-
+Socket</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>60</x><y>330</y><w>40</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>20;20;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>50</x><y>330</y><w>40</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;20;10</additional_attributes></element></diagram>
